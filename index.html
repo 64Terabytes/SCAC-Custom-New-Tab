@@ -54,7 +54,7 @@
   </style>
 </head>
 <body>
-  <div>
+  <div id="background">
     <div class="topleft box">
       <h1>Welcome Back!</h1>
     </div>
@@ -68,4 +68,12 @@
       </form>
     </div>
   </div>
+  <script>
+    (function() {
+        var backgrounds = ["background1.jpg","background2.jpg"];
+        var index = Math.floor(Math.random() * backgrounds.length);  // returns a random integer from 0 to 9
+        console.log(backgrounds[index]);
+        document.body.style.backgroundImage = "url('/backgrounds/"+ backgrounds[index] +"')";
+    })();
+  </script>
 </body>
