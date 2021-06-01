@@ -1,1 +1,1 @@
-This is a project I made for my school just for a little fun
+A project i made for my school for a little fun that i didn't finish.
